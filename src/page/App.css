@@ -1,0 +1,142 @@
+div {
+  --data-color-border: grey;
+  --data-color-shadow: #444;
+}
+
+.wrapper_full_width {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper_short_width {
+  display: flex;
+  flex-direction: column;
+  min-width: 800px;
+  margin: 30px 144px;
+  -moz-box-shadow: 2px 2px 6px 0 var(--data-color-shadow);
+  -webkit-box-shadow: 2px 2px 6px var(--data-color-shadow);
+  box-shadow: 2px 2px 6px 0 var(--data-color-shadow);
+}
+
+.wrapper_dashboard {
+  display: flex;
+  flex-direction: row;
+  min-height: 120px;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--data-color-border);
+}
+
+.item_color_added {
+  width: 50px;
+  height: 75px;
+  border: 1px solid var(--data-color-border);
+}
+
+.item_color_added_name {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.wrapper_form_add_color {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 10px;
+}
+
+.wrapper_added_color {
+  width: 100%;
+  height: 100px;
+}
+
+.wrapper_added_color_display, .wrapper_added_color_display_message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border: 1px solid var(--data-color-border);
+}
+
+.wrapper_added_color_name {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  height: 30px;
+}
+
+.wrapper_added_color_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 30px 5px 10px 5px;
+  padding: 10px 16px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+  box-shadow: -2px 4px 10px rgba(115, 124, 142, 0.09);
+  border-radius: 25px;
+  width: 70px;
+}
+
+.wrapper_buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.wrapper_input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper_input_sharp {
+  display: flex;
+  justify-self: center;
+  align-self: end;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  height: 60px;
+}
+
+.button {
+  width: 200px;
+  margin: 5px 0;
+  padding: 14px 20px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: -2px 4px 10px rgba(115, 124, 142, 0.3);
+}
+
+/*# sourceMappingURL=App.css.map */
